@@ -1,0 +1,121 @@
+.sidebar {
+    width: 250px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    // align-items: center;
+    background-color: black;
+    color: white;
+    gap: 0.2rem;
+
+
+    .logo {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        padding: 5px 5px;
+
+        img {
+            width: 20px;
+            border-radius: 50%;
+        }
+    }
+
+    .links {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 10px;
+        padding: 5px 5px;
+
+        Link {
+            text-decoration: none;
+        }
+
+        .container {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            height: 40px;
+
+            Link {
+                text-decoration: none;
+            }
+            // justify-content: center;
+
+            &:hover {
+                background-color: rgb(58, 58, 58);
+                color: white;
+            }
+
+            Link {
+                text-decoration: none;
+            }
+        }
+
+
+
+
+
+    }
+
+    .create {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding: 10px 10px;
+
+
+        .container {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            height: 40px;
+            // justify-content: center;
+
+            &:hover {
+                background-color: rgb(58, 58, 58);
+                color: white;
+            }
+        }
+
+    }
+
+    .fav {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding: 10px 10px;
+
+
+        .container {
+            display: flex;
+            align-items: center;
+            height: 40px;
+
+            &:hover {
+                background-color: rgb(58, 58, 58);
+                color: white;
+            }
+
+        }
+
+
+    }
+
+    .install {
+        display: flex;
+        align-items: center;
+
+        height: 40px;
+
+        .container {
+            display: flex;
+            align-items: center;
+            height: 40px;
+            gap: 10px;
+        }
+
+    }
+}

@@ -1,0 +1,112 @@
+.navbar {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    background-color: black;
+    color: white;
+
+    .left {
+        width: 50%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 20px;
+
+        .arrow {
+            display: flex;
+            gap: 15px;
+
+            Link {
+                text-decoration: none;
+            }
+
+            .leftarrow {}
+
+            .rightarrow {}
+        }
+
+        .searchbar {
+            width: 400px;
+            height: 30px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            background-color: white;
+            color: grey;
+            border-radius: 50px;
+
+
+            input {
+                border: none;
+
+                .custom-input::placeholder {
+                    border: none;
+                    /* Or any other border properties you want to remove */
+                }
+            }
+        }
+    }
+
+    .right {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 670px;
+
+
+        .rightcontainer {
+            display: flex;
+
+
+            .rightimage {
+                img {
+                    width: 50px;
+                    border-radius: 50%;
+                }
+            }
+
+            .username {}
+
+
+            .downarrow-image {}
+
+
+            .uparrow-image {}
+        }
+
+
+
+        .downarrow {
+            // width: 250px;
+            // height: 300px;
+            // background-color: darkgray;
+            // color: white;
+
+            position: relative;
+            display: inline-block;
+
+
+
+            .dropdown-menu {
+                position: absolute;
+                display: flex;
+                flex-direction: column;
+                top: 100%;
+                right: 0;
+                width: 200px;
+                background-color: rgb(38, 37, 37);
+                border: 1px solid #ccc;
+
+                .txt {
+                    // display: flex;F
+                    padding: 10px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    border-bottom: 1px solid #ccc;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}

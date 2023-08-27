@@ -1,0 +1,100 @@
+.home {
+    width: 98.9vw;
+    display: flex;
+    background-color: black;
+    color: white;
+
+
+    .main-container {
+        width: 79rem;
+
+        .navbar {}
+
+        .lists {
+            display: flex;
+            flex-direction: column;
+
+
+            .list {
+
+
+                height: 200px;
+                display: flex;
+                justify-content: space-between;
+                margin-top: 30px;
+
+                .cont {
+                    width: 240px;
+                    height: 68px;
+                    display: flex;
+                    align-items: center;
+                    background-color: rgb(58, 58, 58);
+                    color: white;
+                    gap: 10px;
+
+
+                    img {
+                        width: 50px;
+                        height: 68px;
+                    }
+                }
+
+            }
+        }
+
+        .songs-display {
+            display: flex;
+            flex-direction: column;
+
+
+            .music {
+
+                font-size: 24px;
+                font-weight: 500;
+            }
+
+            .music-tracks {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                width: 200px;
+                gap: 50px;
+                margin-left: 30px;
+                margin-top: 30px;
+
+
+
+                .track-card {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    background-color: rgb(79, 79, 79);
+
+
+                    img {
+                        width: 110px;
+                        height: 128px;
+                    }
+
+
+                    .truncated-text {
+                        white-space: nowrap;
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                        max-width: 120px;
+                    }
+                }
+            }
+
+
+
+        }
+
+        .music-player {
+            width: 79rem;
+            background-color: rgb(60, 60, 60);
+            margin-top: 110px;
+        }
+
+    }
+}

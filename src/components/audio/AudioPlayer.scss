@@ -1,0 +1,44 @@
+.audio-player {
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    .inner {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+
+        .display {
+            display: flex;
+            flex-direction: row;
+            width: 200px;
+
+            // img {
+            //     width: 50px;
+            // }
+        }
+
+        .control {
+            width: 500px;
+            display: flex;
+            justify-content: center;
+
+        }
+
+        .progress {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+
+        }
+
+        .volume {
+
+
+        }
+
+    }
+}

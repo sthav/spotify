@@ -1,0 +1,19 @@
+.category {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    border: solid 10px red;
+
+
+    .cat-container {
+        display: flex;
+        flex-direction: column;
+
+
+        img {
+            width: 100px;
+            height: 100px;
+        }
+    }
+}

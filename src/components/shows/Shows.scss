@@ -1,0 +1,20 @@
+.shows {
+    display: flex;
+    gap: 100px;
+    
+    
+
+    .info{
+
+       img {
+        width: 100px;
+        height: 100px;
+       }
+
+
+        .texts {
+            font-size: 10px;
+
+        }
+    }
+}
