@@ -3,12 +3,14 @@
     height: 150px;
     display: flex;
     flex-direction: row;
-    border: solid 10px red;
+    justify-content: center;
+    align-items: center;
 
 
     .cat-container {
         display: flex;
         flex-direction: column;
+        gap: 10px;
 
 
         img {

@@ -1,11 +1,15 @@
 .search {
+    width: 98.9vw;
     display: flex;
+    background-color: black;
+    color: white;
 
 
 
     .main-container {
         display: flex;
         flex-direction: column;
+        width: 79rem;
 
 
         .Navbar {}
@@ -14,6 +18,16 @@
         .cate {
             display: flex;
             flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            gap: 40px;
+            margin-top: 89px;
+        }
+
+        .music-player {
+            width: 79rem;
+            background-color: rgb(60, 60, 60);
+            margin-top: 110px;
         }
     }
 

@@ -29,6 +29,7 @@ const Search = () => {
             <Category key={card.id} card={card} />
           )}
         </div>
+
         <div className="music-player">
           <AudioPlayer />
         </div>
